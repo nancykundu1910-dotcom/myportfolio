@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nancy | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+</script>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav>
+        <h2 class="logo">View my profile</h2>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+</header>
+
+
+<!-- HOME -->
+<section id="home" class="home">
+    <div class="home-content">
+
+        <p class="small-text">HELLO, I'M</p>
+
+        <h1>Nancy</h1>
+
+        <h2>Student & Web Development Learner</h2>
+
+        <p>
+            I am passionate about learning technology, web development
+            and creating modern websites.
+        </p>
+
+        <div class="buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn second">Contact Me</a>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ABOUT -->
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about">
+
+        <div class="about-text">
+            <h3>Who Am I?</h3>
+
+            <p>
+                Hello! My name is Nancy. I am a student who is interested
+                in computers, web development and learning new technologies.
+            </p>
+
+            <p>
+                I enjoy creating websites using HTML, CSS and JavaScript.
+                I am continuously improving my technical and creative skills.
+            </p>
+
+            <div class="info">
+                <p><b>Name:</b> Nancy</p>
+                <p><b>Field:</b> Web Development</p>
+                <p><b>Experience:</b> Beginner / Student</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- EDUCATION -->
+<section id="education" class="light-section">
+
+    <h2 class="section-title">Education</h2>
+
+    <div class="education-container">
+
+        <div class="education-card">
+            <span>2026</span>
+            <h3>Graduation</h3>
+            <h4>BA – 1st Year</h4>
+            <p>
+                Currently pursuing graduation with subjects including
+                English, Physical Education and Political Science.
+            </p>
+        </div>
+
+        <div class="education-card">
+            <span>2026</span>
+            <h3>Class 12th</h3>
+            <h4>CBSE</h4>
+            <p>
+                Successfully completed Class 12th with subjects including
+                English, Hindi, Political Science, Painting,
+                Physical Education and Mathematics.
+            </p>
+        </div>
+
+        <div class="education-card">
+            <span>2026</span>
+            <h3>Computer Course</h3>
+            <h4>CCWDM</h4>
+            <p>
+                Learning computer fundamentals, MS Office, HTML,
+                CSS, JavaScript and web development.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills">
+
+    <h2 class="section-title">My Skills</h2>
+
+    <div class="skills">
+
+        <div class="skill-card">
+            <h3>HTML</h3>
+            <p>Creating website structure and web pages.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>CSS</h3>
+            <p>Designing and styling modern websites.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>JavaScript</h3>
+            <p>Adding interaction and functionality to websites.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>MS Office</h3>
+            <p>Working with Word, Excel and PowerPoint.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+
+<section id="projects" class="projects">
+
+    <div class="section-title">
+        <p>MY WORK</p>
+        <h2>My <span>Projects</span></h2>
+    </div>
+
+    <div class="project-container">
+
+        <!-- NRL LOGISTICS PROJECT -->
+
+        <div class="project-card">
+
+            <div class="project-image">
+
+                <img src="nrl-card.jpg"
+                     alt="NRL Logistics">
+
+                <div class="project-overlay">
+                    <button onclick="openNRLProject()">
+                        View Project
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="project-info">
+
+                <span class="project-category">
+                    Business Website
+                </span>
+
+                <h3>NRL Logistics</h3>
+
+                <p>
+                    A professional transportation and logistics
+                    website created for NRL Logistics
+                    (Nakul Road Lines), covering road
+                    transportation and logistics services
+                    across Haryana and India.
+                </p>
+
+                <div class="project-tags">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+                <button class="project-btn"
+                        onclick="openNRLProject()">
+                    Explore Project →
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- NRL LOGISTICS PROFESSIONAL PROJECT -->
+<div id="nrlPopup" class="nrl-popup">
+
+    <div class="nrl-popup-box">
+
+        <button class="close-project" onclick="closeNRLProject()">×</button>
+
+        <!-- HERO -->
+        <div class="project-modal-image">
+            <img src="https://vaishnu.com/wp-content/uploads/2020/09/top5heavytruckcovernew-1170x536.jpg" alt="NRL Logistics Truck">
+
+            <div class="nrl-hero-text">
+                <span>LOGISTICS & TRANSPORTATION</span>
+                <h1>NRL Logistics</h1>
+                <p>Reliable Transportation. Connected Across India.</p>
+            </div>
+        </div>
+        <!-- NRL INTERNAL NAVIGATION -->
+<nav class="nrl-nav">
+    <a href="#nrlAbout">About</a>
+    <a href="#nrlServices">Services</a>
+    <a href="#nrlNetwork">Network</a>
+    <a href="#nrlFleet">Fleet</a>
+    <a href="#nrlQuote">Quote</a>
+    <a href="#nrlGallery">Gallery</a>
+</nav>
+
+        <!-- CONTENT -->
+        <div class="project-modal-text">
+
+            <!-- ABOUT -->
+            <section class="nrl-section" id="nrlAbout">
+                <h2>About NRL Logistics</h2>
+                <p>
+                    NRL Logistics is a professional transportation and logistics
+                    business focused on providing reliable, efficient and
+                    customer-oriented transportation solutions. Our goal is to
+                    connect businesses and customers through dependable logistics
+                    services while ensuring safe and timely movement of goods.
+                </p>
+                <p>
+                    From local transportation to long-distance movement,
+                    NRL Logistics works to make the transportation process
+                    simple, organised and dependable.
+                </p>
+            </section>
+
+            <!-- STATS -->
+            <section class="nrl-section">
+                <h2>Our Business at a Glance</h2>
+
+                <div class="nrl-stats">
+
+                    <div class="nrl-stat">
+                        <h3>50+</h3>
+                        <p>Vehicles</p>
+                    </div>
+
+                    <div class="nrl-stat">
+                        <h3>20+</h3>
+                        <p>Locations</p>
+                    </div>
+
+                    <div class="nrl-stat">
+                        <h3>1000+</h3>
+                        <p>Deliveries</p>
+                    </div>
+
+                    <div class="nrl-stat">
+                        <h3>24/7</h3>
+                        <p>Support</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- SERVICES -->
+            <section class="nrl-section" id="nrlServices">
+                <h2>Our Services</h2>
+
+                <div class="nrl-services">
+
+                    <div class="nrl-service-card">
+                        <div class="nrl-service-icon">🚚</div>
+                        <h3>Road Transportation</h3>
+                        <p>
+                            Reliable road transportation solutions for
+                            businesses and customers.
+                        </p>
+                    </div>
+
+                    <div class="nrl-service-card">
+                        <div class="nrl-service-icon">📦</div>
+                        <h3>Goods Delivery</h3>
+                        <p>
+                            Safe and organised movement of goods from
+                            pickup to destination.
+                        </p>
+                    </div>
+
+                    <div class="nrl-service-card">
+                        <div class="nrl-service-icon">🏭</div>
+                        <h3>Industrial Logistics</h3>
+                        <p>
+                            Transportation support for industrial and
+                            commercial requirements.
+                        </p>
+                    </div>
+
+                    <div class="nrl-service-card">
+                        <div class="nrl-service-icon">🚛</div>
+                        <h3>Full Truck Load</h3>
+                        <p>
+                            Dedicated transportation options for
+                            large shipments and bulk goods.
+                        </p>
+                    </div>
+
+                    <div class="nrl-service-card">
+                        <div class="nrl-service-icon">📍</div>
+                        <h3>Pan-India Transportation</h3>
+                        <p>
+                            Connecting different cities and regions
+                            through a growing transport network.
+                        </p>
+                    </div>
+
+                    <div class="nrl-service-card">
+                        <div class="nrl-service-icon">📋</div>
+                        <h3>Logistics Coordination</h3>
+                        <p>
+                            Planned and organised coordination to make
+                            transportation easier and smoother.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- NETWORK -->
+            <section class="nrl-section" id="nrlNetwork">
+                <h2>Our Business Network</h2>
+
+                <p>
+                    NRL Logistics serves multiple locations and works
+                    towards building a strong transportation network.
+                </p>
+
+                <div class="nrl-network">
+                    <span>Shahbad</span>
+                    <span>Saha</span>
+                    <span>Zirakpur</span>
+                    <span>Chandigarh</span>
+                    <span>Haryana</span>
+                    <span>Punjab</span>
+                    <span>Delhi</span>
+                    <span>North India</span>
+                    <span>Pan-India</span>
+                </div>
+            </section>
+            <!-- ASSOCIATED COMPANIES -->
+<section class="nrl-section">
+    <h2>Associated Companies</h2>
+
+    <p>
+        NRL Logistics works with trusted transportation and logistics
+        partners to support efficient movement of goods and services.
+    </p>
+
+    <div class="nrl-companies">
+
+        <div class="nrl-company-card">
+            <div class="nrl-company-icon">🚚</div>
+            <div>
+                <h3>Khushdil Transport</h3>
+                <p>Transportation Partner</p>
+            </div>
+        </div>
+
+        <div class="nrl-company-card">
+            <div class="nrl-company-icon">📦</div>
+            <div>
+                <h3>Indnep Transport Service</h3>
+                <p>Transport Service Partner</p>
+            </div>
+        </div>
+
+        <div class="nrl-company-card">
+            <div class="nrl-company-icon">🚛</div>
+            <div>
+                <h3>Kingfish Logistics</h3>
+                <p>Logistics Partner</p>
+            </div>
+        </div>
+
+        <div class="nrl-company-card">
+            <div class="nrl-company-icon">🏢</div>
+            <div>
+                <h3>Dahiya Transports</h3>
+                <p>Transportation Partner</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- OUR FLEET -->
+<section class="nrl-section" id="nrlFleet">
+    <h2>Our Fleet</h2>
+
+    <p>
+        Our transportation fleet is designed to support different
+        types of cargo and business requirements with flexibility
+        and dependable service.
+    </p>
+
+    <div class="nrl-fleet">
+
+        <div class="nrl-fleet-card">
+            <div class="nrl-fleet-icon">🚛</div>
+            <h3>Heavy Trucks</h3>
+            <p>
+                Suitable for large and heavy shipments requiring
+                reliable long-distance transportation.
+            </p>
+        </div>
+
+        <div class="nrl-fleet-card">
+            <div class="nrl-fleet-icon">🚚</div>
+            <h3>Medium Trucks</h3>
+            <p>
+                Flexible transportation solutions for medium-sized
+                commercial and business shipments.
+            </p>
+        </div>
+
+        <div class="nrl-fleet-card">
+            <div class="nrl-fleet-icon">📦</div>
+            <h3>Cargo Vehicles</h3>
+            <p>
+                Practical vehicles for organised movement of
+                packaged goods and commercial cargo.
+            </p>
+        </div>
+
+        <div class="nrl-fleet-card">
+            <div class="nrl-fleet-icon">🏭</div>
+            <h3>Full Truck Load</h3>
+            <p>
+                Dedicated transportation options for businesses
+                moving larger quantities of goods.
+            </p>
+        </div>
+
+    </div>
+</section>
+<!-- GET A QUOTE -->
+<section class="nrl-section" id="nrlQuote">
+    <div class="nrl-quote-box">
+
+        <div class="nrl-quote-heading">
+            <span>TRANSPORTATION SOLUTIONS</span>
+            <h2>Get a Quote</h2>
+            <p>
+                Tell us about your transportation requirement
+                and explore a suitable logistics solution.
+            </p>
+        </div>
+
+        <form class="nrl-quote-form" onsubmit="return submitNRLQuote(event)">
+
+            <div class="nrl-form-group">
+                <label>Pickup Location</label>
+                <input type="text" placeholder="Enter pickup location" required>
+            </div>
+
+            <div class="nrl-form-group">
+                <label>Delivery Location</label>
+                <input type="text" placeholder="Enter delivery location" required>
+            </div>
+
+            <div class="nrl-form-group">
+                <label>Vehicle Type</label>
+                <select required>
+                    <option value="">Select vehicle</option>
+                    <option>Heavy Truck</option>
+                    <option>Medium Truck</option>
+                    <option>Cargo Vehicle</option>
+                    <option>Full Truck Load</option>
+                </select>
+            </div>
+
+            <div class="nrl-form-group">
+                <label>Requirement</label>
+                <textarea
+                    placeholder="Describe your transportation requirement"
+                    rows="4"
+                    required
+                ></textarea>
+            </div>
+
+            <button type="submit" class="nrl-quote-btn">
+                Request a Quote →
+            </button>
+
+        </form>
+
+    </div>
+</section>
+<!-- SHIPMENT JOURNEY -->
+<section class="nrl-section nrl-journey-section">
+    <h2>Our Shipment Journey</h2>
+
+    <p>
+        From booking to final delivery, every transportation step
+        is organised to keep the movement of goods simple and efficient.
+    </p>
+
+    <div class="nrl-journey">
+
+        <div class="nrl-journey-line"></div>
+
+        <div class="nrl-journey-step">
+            <div class="nrl-journey-icon">📋</div>
+            <span>01</span>
+            <h3>Booking</h3>
+            <p>Transportation requirement is confirmed.</p>
+        </div>
+
+        <div class="nrl-journey-step">
+            <div class="nrl-journey-icon">📦</div>
+            <span>02</span>
+            <h3>Pickup</h3>
+            <p>Goods are collected from the pickup point.</p>
+        </div>
+
+        <div class="nrl-journey-step">
+            <div class="nrl-journey-icon">🚚</div>
+            <span>03</span>
+            <h3>In Transit</h3>
+            <p>Goods are transported towards their destination.</p>
+        </div>
+
+        <div class="nrl-journey-step">
+            <div class="nrl-journey-icon">📍</div>
+            <span>04</span>
+            <h3>Delivered</h3>
+            <p>Goods reach the required destination.</p>
+        </div>
+
+    </div>
+</section>
+<!-- TRUCK GALLERY -->
+<section class="nrl-section" id="nrlGallery">
+    <h2>Our Transportation Gallery</h2>
+
+    <p>
+        A glimpse of the vehicles and transportation operations
+        supporting our logistics network.
+    </p>
+
+    <div class="nrl-gallery">
+
+        <div class="nrl-gallery-card">
+            <img src="https://media.istockphoto.com/id/1363221069/photo/truck-with-container-on-highway.jpg?s=1024x1024&w=is&k=20&c=Dzu6HzuQGTC8_MSFtq8Qh5ZRopMbxFOSsIYL0oJUWug=" alt="NRL Logistics Truck">
+            <div class="nrl-gallery-overlay">
+                <h3>Heavy Transportation</h3>
+                <p>Reliable road transport</p>
+            </div>
+        </div>
+
+        <div class="nrl-gallery-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1GsSw-3y_ZZcVRBn6OZq5FhyvM8X5WFzxidx2iQAV6WEG2WVvW0jS70jH&s=10" alt="Logistics Truck">
+            <div class="nrl-gallery-overlay">
+                <h3>Cargo Movement</h3>
+                <p>Efficient goods transportation</p>
+            </div>
+        </div>
+
+        <div class="nrl-gallery-card">
+            <img src="https://www.shutterstock.com/image-photo/pakistan-punjab-2024-19-may-260nw-2630961973.jpg" alt="Transport Vehicle">
+            <div class="nrl-gallery-overlay">
+                <h3>Long Distance</h3>
+                <p>Connected across regions</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+            <!-- WHY US -->
+            <section class="nrl-section">
+                <h2>Why Choose NRL Logistics?</h2>
+
+                <div class="nrl-features">
+
+                    <div class="nrl-feature">✓ Reliable Transportation</div>
+                    <div class="nrl-feature">✓ Timely Delivery</div>
+                    <div class="nrl-feature">✓ Professional Coordination</div>
+                    <div class="nrl-feature">✓ Safe Goods Handling</div>
+                    <div class="nrl-feature">✓ Wide Transportation Network</div>
+                    <div class="nrl-feature">✓ Customer-Focused Service</div>
+
+                </div>
+            </section>
+
+            <!-- PROCESS -->
+            <section class="nrl-section">
+                <h2>How Our Logistics Process Works</h2>
+
+                <div class="nrl-process">
+
+                    <div class="nrl-step">
+                        <div class="nrl-step-number">1</div>
+                        <h3>Booking</h3>
+                        <p>Transportation requirement is received.</p>
+                    </div>
+
+                    <div class="nrl-step">
+                        <div class="nrl-step-number">2</div>
+                        <h3>Pickup</h3>
+                        <p>Goods are collected from the pickup location.</p>
+                    </div>
+
+                    <div class="nrl-step">
+                        <div class="nrl-step-number">3</div>
+                        <h3>Transportation</h3>
+                        <p>Goods are transported towards their destination.</p>
+                    </div>
+
+                    <div class="nrl-step">
+                        <div class="nrl-step-number">4</div>
+                        <h3>Delivery</h3>
+                        <p>Goods reach the required destination safely.</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- CONTACT -->
+            <section class="nrl-section">
+                <div class="nrl-contact-box">
+
+                    <h2>Let's Move Your Business Forward</h2>
+
+                    <p>
+                        Looking for dependable transportation and logistics
+                        solutions? Get in touch with NRL Logistics today.
+                    </p>
+                    <a href="#contact" class="nrl-contact-btn">
+    Contact Us
+</a>
+<div class="contact-details">
+    <p>📞 <a href="tel:+918397032777">+91 8397032777</a></p>
+    <p>📧 <a href="mailto:nancykundu1910@gmail.com">nancykundu1910@gmail.com</a></p>
+</div>
+
+                                   </div>
+            </section>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- CONTACT -->
+<section id="contact">
+
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact-box">
+
+        <h3>Let's Connect</h3>
+
+        <p>
+            Interested in my work or want to know more?
+            Feel free to contact me.
+        </p>
+
+        <div class="contact-info">
+            <p>📧 nancykundu1910@gmail.com</p>
+            <a href="tel:+918397032777">📞 +91 8397032777</a>
+            <p>📍 Haryana, India</p>
+        </div>
+
+        <button onclick="contactMessage()">Send Message</button>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+    <h3>Nancy.</h3>
+    <p>© 2026 Nancy | Personal Portfolio</p>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
